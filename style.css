@@ -50,15 +50,16 @@ body {
 }
 
 button {
-    color: rgb(220, 230, 220);
+    color: #ffffff;
     cursor: pointer;
-    border-color: honeydew;
-    background-color: #293b28;
+    border-color: #ecf1eb;
+    background-color: #7c807b;
     border: 1;
     padding: 8px;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.30);
 }
 
 span {
