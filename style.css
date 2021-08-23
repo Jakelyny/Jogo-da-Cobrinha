@@ -1,0 +1,68 @@
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: auto;
+    background-color: #b39c75;
+}
+
+.container {
+    background-color: #a8bfb6;
+    position: absolute;
+    padding: 1em 2em;
+    width: 350px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20vh;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.20);
+}
+
+#proxSpan {
+    width: 200px;
+    margin: auto;
+    background-color: #5e7f67;
+    border-style: solid;
+    padding: 2px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    background-color: #375f48;
+}
+
+.snake {
+    background-color: rgb(25, 143, 25);
+}
+
+.apple {
+    background-color: rgb(192, 37, 37);
+}
+
+button {
+    color: rgb(220, 230, 220);
+    cursor: pointer;
+    border-color: honeydew;
+    background-color: #293b28;
+    border: 1;
+    padding: 8px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+span {
+    background-color: #79998c;
+    color: #e3f0e2;
+    padding: 2px;
+}
